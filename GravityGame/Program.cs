@@ -77,7 +77,7 @@ public class GravityGame : Form
         //  Create TextBox objects to display the outcome.
         velocityTextBox = new TextBox();
         velocityTextBox.Width = 100;
-        velocityTextBox.Text = "25.0";
+        velocityTextBox.Text = String.Format("{0}", 25.0m);
         velocityTextBox.AutoSize = true;
         velocityTextBox.Top = velocityLabel.Top;
         velocityTextBox.Left = 110;
